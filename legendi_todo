@@ -1,0 +1,28 @@
+- A végére én raknék egy összefoglalást (kb. ugyanazt leírni, mint a bevezetőben, csak múlt időben írni, kicsit rövidebben, ilyesmi).
++ A címből kiszedném a '-' karaktert, olyan sután néz ki egyedül a sor végén :-)
++ A címlapra amúgy van valami erős előírás, hogy hogy kell kinéznie (tanszék neve, ELTE logó, ilyesmik).
+- 1.1.-be ha be tudsz rakin 2 perc googlizással valami netes cikket, blogpostot, ilyesmit, ami webes toolkitek hasonló problémáit feszegeti, az kiváló lenne. Vagy footnote, vagy ami jobb, referenciaként tedd be.
++ 1.2-be tégy egy egy referenciát a JavaScript speckóra (ECMA vagy mi volt, aktuális az még egyáltalán, vagy van újabb?)
++ A linkelt Nyékynés leírást is be lehet rakni referenciaként.
+- Amikor először szólsz egy új fogalomról, terminológiáról, technikáról, vagy írd le 1-2 szóban, hogy mi az, vagy rakj be 1-2-3 referenciát utána, ahol utána lehet olvasni (NodeJS, ActionScript, MVC, JSON, Qt, Swing, hasonlók -- ezeket nem hiszem, hogy sokan mélyen ismerik, ezért fontosak a további tájékozódási pontok.)
++ " Olyan lehetőségek tárháza ez, mely a következő években forradalmasíthatja a webfejlesztést. " -- Amikor ilyeneket írsz, érdemes valamivel alátámasztani, honnan jött a sugalmazás (TIOBE index, valami lead architekt nyilatkozata, írása, hasonlók)
++ Licenc: "Itt jegyezném meg, hogy a szoftver MIT licenccel rendelkezik, így szabadon felhasználható." Ezt akár mellékelhetnéd is, pl. "[...] amely az A számú mellékletben megtalálható".
++ 2.2 én bemásolnék valami ajánlott/minimál konfigurációt valamelyik használt toolból (Mongo, NodeJS), etc. Ha könnyen megvan.
+- A kódok, konzol parancsok lehetőleg legyenek külön formázva (még kicsit fura pl. a git clone kinézete, bizots a sorkizártság miatt). Főleg a példa project setupnál fontos, hogy legyen egy tiszta, követhető lépéssorozat, amit könnyű reprodukálni.
+- A "Kliensoldali kódok generálása, küldése" fejezet egy kicsit zavaros nekem, de lehet csak a példakód/ábra hiánya teszi (pl. nem tudom, mi az a CommonWidget, etc. ). Ezekről jó lenne 1-1 mondat vagy hivatkozás, hogy hol vannak leírva, mik is ők valójában.
+- Egy project összefoglaló oldal kéne: egy sima felsorolás-lista, hogy milyen Git repók vannak, hol van tutorial a neten, wiki, issue tracker, demo app, etc. Ez gyorsan megvan és +1 oldal :-)
+- A szövegben a gombok feliratai, függvény- és osztályneveket, hasonlókat egységesítsd plz (néha "-ek vannak, néha italic, etc. nekem az italic bőven megteszi).
+- A DB-vel való kapcsolatról kéne még írni egy keveset. Először azt hittem, hogy nincs is, de aztán rájöttem, hogy csak a doksi struktúrája más picit, mint amire én számítottam :-)
+- "Frontend szolgáltatás - kliens oldal" ide egy ábra jó lenne nagyon, vagy esetleg valami mockup (pl. BalsamiqMockuppal gyorsan össze lehet képernyőterveket dobálni, és ráfogni, hogy majd ilyen lesz a kész szoftver -- aztán nézni, hogy hoppá, pont olyan lett! :-).
+- "Erre a problémára a következő megoldást dolgoztam ki: a keretrendszer beépítve támogatja az API-s felépítést, így elosztva a terheléseket. " Itt ezt érdemes lenne kicsit finomítani, nehogy úgy értelmezzék, hogy ez benne van a rendszerben, ha nincs.
+- A példákat kicsit lehetne erőltetni, pl. amikor a module.exports-ról beszélsz, hogy néz ki egy tipikus olyan nálad, etc.
+- "a lambda kalkulus alkalmazhatóságával támogatja " --> a buzzwordok dobálásával offtosan, csak olyat mondj, írj le, amit nem para, ha esetleg megkérdeznek. Lambda kifejezéseket használunk, a kalkulussal offtosan, mert a végén még Csörnyei tanár úr is a bizottságban lesz, ő tudja, mi az, és esetleg felmerülnek béta-redukciók meg konverziók :-)
++ "Kliens oldal": Ez lehetne táblázat esetleg (nem tudom, mennyire lenne más, meg mennyi időt éri meg ezzel elpepecselni).
++ Arra figyelj, hogy a belső linkek ne linkek legyenek (pl. 3.2.2 első mondatában), mert az csak az elektronikus változatban működik, a nyomtatott papíron más lesz a hatás, elég sután néz ki. Ezt úgy szokták, hogy "xxx részben kifejtettem (lásd x.y. fejezet)".
++ absztraktálni --> absztrahálni
+- A modulokról lehetne egy összefoglaló ábra.
+# Az al-alcímeknél is lehetnének számozások.
++ A példakódoknak is lehente aláírása, külön stílusa, szövegben hivatkozása (ugyanúgy, mint a képeknek). Az Eclipse-es screenshot is megteszi ugyan.
++ "Java 1.7-es verziója" ide footnote-ba berakhatod, hogy letölthető pl. a getjava.com oldalról vagy valami.
++ Az ábrák láthatóságán valamit lehetne javítani (pl. 3.3.2 alatti ábra elég nehezen olvasható).
++ Az ábráknak legyen aláírása, száma, és a szövegben rá hivatkozás (lásd. xx. ábra).

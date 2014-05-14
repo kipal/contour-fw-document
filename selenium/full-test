@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://86.101.68.115/" />
+<title>full-test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">full-test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Status</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Browse</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input</td>
+	<td>ujAdatBazis</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=li.leftMenuElem &gt; input</td>
+	<td>ujKollekcio</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=ul.leftMenuElem.link &gt; li.leftMenuElem &gt; button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=li.leftMenuElem &gt; input</td>
+	<td>ujKollekcioAmiTorolveLesz</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=ul.leftMenuElem.link &gt; li.leftMenuElem &gt; button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//ul[@id='leftMenu']/li/ul/li[4]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//ul[@id='leftMenu']/li/ul/li[3]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=td &gt; input</td>
+	<td>kulcs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr/td[2]/input</td>
+	<td>érték</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.docSaver &gt; button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[2]/td/input</td>
+	<td>kulcs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[2]/td[2]/input</td>
+	<td>ami a mentés során eltűnik</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.docSaver &gt; button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[3]/td/input</td>
+	<td>kulcs kettő</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[3]/td[2]/input</td>
+	<td>{&quot;json&quot; : &quot;literál&quot;}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=td &gt; input</td>
+	<td>torolve</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr/td[2]/input</td>
+	<td>lesz</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.docSaver &gt; button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[2]/td/input</td>
+	<td>ezt</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[2]/td[2]/input</td>
+	<td>csak beszurjuk</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.docSaver &gt; button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[3]/td/input</td>
+	<td>mentes</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr[3]/td[2]/input</td>
+	<td>elott toroljuk</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div/table/tr[2]/td[3]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div/table/tr[2]/td[3]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=td &gt; input</td>
+	<td>uj</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='workArea']/div/table/tr/td[2]/input</td>
+	<td>ami törölve lesz</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div[4]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='workArea']/div[4]/table/tr[3]/td[2]/button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>css=li.leftMenuElem.link &gt; button</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
